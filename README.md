@@ -20,6 +20,9 @@ CodingApe is a modern platform designed to help users learn and practice coding 
 ### Installation
 
 1. **Clone the repository:**
+ - Create a folder coding-ape-client
+ - cd coding-ape-client
+ 
   ```sh
   git clone https://github.com/AshabWazowski/CodingApe.git
   
