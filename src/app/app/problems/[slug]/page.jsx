@@ -13,7 +13,7 @@ const ProblemPage = ({ params, searchParams }) => {
   const [problem, setProblem] = useState(null);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/problems/${params.slug}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/problems/${params.slug}`)
       .then((res) => res.json())
       .then((data) => setProblem(data));
   }, [params.slug]);

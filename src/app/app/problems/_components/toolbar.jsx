@@ -47,7 +47,7 @@ const Toolbar = (
   const optimizeCode = async () => {
     // post the code to the API to optimize it
     setIsOptimizing(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/codetools/optimize`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/codetools/optimize`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -68,7 +68,7 @@ const Toolbar = (
   const debugCode = async () => {
     // post the code to the API to debug it
     setIsDebugging(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/codetools/debug`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/codetools/debug`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -89,7 +89,7 @@ const Toolbar = (
   const getHelp = async () => {
     // post the code to the API to get help
     setIsHelping(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/codetools/help`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/codetools/help`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

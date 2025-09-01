@@ -11,13 +11,15 @@ import {
 import Link from "next/link";
 import { DataTableDemo } from "./_components/table";
 import Topbar from "./_components/topbar";
+import { get } from "mongoose/lib/promise_provider";
+import axios from "axios";
 
 const CodePage = () => {
   // Fetch data from API
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/problems/fetch`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/problems/fetch`)
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
