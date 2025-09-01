@@ -11,8 +11,8 @@ import {
 import Link from "next/link";
 import { DataTableDemo } from "./_components/table";
 import Topbar from "./_components/topbar";
-import { get } from "mongoose/lib/promise_provider";
-import axios from "axios";
+// import { get } from "mongoose/lib/promise_provider";
+// import axios from "axios";
 
 const CodePage = () => {
   // Fetch data from API
