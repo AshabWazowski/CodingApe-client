@@ -35,7 +35,7 @@ const CodingApePage = () => {
     ]);
     setPrompt("");
     setIsTyping(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/CodingApe/chat`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/CodingApe/chat`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

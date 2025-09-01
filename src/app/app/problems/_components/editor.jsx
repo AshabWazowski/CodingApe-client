@@ -42,7 +42,7 @@ export const EditorComponent = ({ data, id }) => {
   // post the code to the API to run it. Route is ${process.env.NEXT_PUBLIC_API_URL}/problems/run. Send the language and the code. Don't stringify the data as the id is a number
   const runCode = async () => {
     setLoadingResult(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/problems/run`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/problems/run`, {
       method: "POST",
       // don;t stringify the data as the id is a number
       headers: {
