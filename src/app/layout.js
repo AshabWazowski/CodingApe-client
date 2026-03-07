@@ -7,9 +7,9 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "CodingApe",
+  title: "Krit.io",
   description:
-    "CodingApe is a learning platform for enthusiastic programmers.",
+    "Krit.io is a learning platform for enthusiastic programmers.",
 };
 
 export default function RootLayout({ children }) {

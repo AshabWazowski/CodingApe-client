@@ -1,6 +1,6 @@
-# CodingApe Frontend
+# Krit.io Frontend
 
-CodingApe is a modern platform designed to help users learn and practice coding through an AI-powered code editor, interactive challenges, and step-by-step guided tours. This is the frontend application, built with Next.js and Tailwind CSS.
+Krit.io is a modern platform designed to help users learn and practice coding through an AI-powered code editor, interactive challenges, and step-by-step guided tours. This is the frontend application, built with Next.js and Tailwind CSS.
 
 ## Features
 
@@ -20,11 +20,11 @@ CodingApe is a modern platform designed to help users learn and practice coding 
 ### Installation
 
 1. **Clone the repository:**
- - Create a folder coding-ape-client
- - cd coding-ape-client
+ - Create a folder Krit.io-client
+ - cd Krit.io-client
  
   ```sh
-  git clone https://github.com/AshabWazowski/CodingApe.git
+  git clone https://github.com/AshabWazowski/Krit.io.git
   
   ```
 
@@ -61,4 +61,4 @@ This project is licensed under the MIT License.
 
 ---
 
-*CodingApe – Level up your coding skills with AI!*
+*Krit.io – Level up your coding skills with AI!*

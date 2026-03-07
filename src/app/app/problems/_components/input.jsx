@@ -8,7 +8,7 @@ export const InputField = () => {
       <div className="flex items-center justify-between px-4 bg-background">
         <h2 className="text-lg font-bold text-primary">Input</h2>
       </div>
-      <Textarea className={cn("flex-1 resize-none overflow-y-auto")} />
+      <Textarea className={cn("flex-1 resize-none")} />
     </div>
   );
 };

@@ -26,7 +26,7 @@ const Sidebar = () => {
   const routes = [
     { name: "App", path: "/app", icon: Home },
     { name: "Code", path: "/app/problems", icon: CodeXml },
-    { name: "CodingApe", path: "/app/CodingApe", icon: MessageCircleCode },
+    { name: "Krit.io", path: "/app/codechimp", icon: MessageCircleCode },
     { name: "Interview Prep", path: "/app/interview", icon: LandPlot },
     { name: "Study Planner", path: "/app/plan", icon: NotebookText },
   ];
@@ -48,7 +48,7 @@ const Sidebar = () => {
               className={cn(
                 "rounded-md p-2 transition-transform",
                 currentPath === route.path &&
-                  "backdrop-filter backdrop-blur-sm border border-border transform scale-105"
+                "backdrop-filter backdrop-blur-sm border border-border transform scale-105"
               )}
               key={route.name}
             >

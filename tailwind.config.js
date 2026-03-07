@@ -66,10 +66,25 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "move-across-1": {
+          "0%, 100%": { transform: "translate(-50vw, -40vh) scale(1)" },
+          "50%": { transform: "translate(50vw, 40vh) scale(1.5)" },
+        },
+        "move-across-2": {
+          "0%, 100%": { transform: "translate(50vw, -40vh) scale(1.2)" },
+          "50%": { transform: "translate(-50vw, 40vh) scale(0.8)" },
+        },
+        "move-across-3": {
+          "0%, 100%": { transform: "translate(-40vw, 30vh) scale(1)" },
+          "50%": { transform: "translate(40vw, -30vh) scale(1.3)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "move-across-1": "move-across-1 55s ease-in-out infinite",
+        "move-across-2": "move-across-2 70s ease-in-out infinite",
+        "move-across-3": "move-across-3 90s ease-in-out infinite",
       },
     },
   },

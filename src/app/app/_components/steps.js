@@ -8,8 +8,8 @@ export const Provider = () => {
   const newSteps = [
     {
       id: "step-0",
-      title: "Welcome to CodingApe",
-      text: "Welcome to CodingApe platform. Let's start exploring the platform. You can even use your keyboard to navigate through the steps. Press Left ⬅️ or Right ➡️ arrow key to navigate through the steps, and Esc key to close the tour.",
+      title: "Welcome to Krit.io",
+      text: "Welcome to Krit.io platform. Let's start exploring the platform. You can even use your keyboard to navigate through the steps. Press Left ⬅️ or Right ➡️ arrow key to navigate through the steps, and Esc key to close the tour.",
       buttons: [
         {
           text: "Exit",
@@ -50,8 +50,8 @@ export const Provider = () => {
     },
     {
       id: "step-2",
-      title: "CodingApe",
-      text: "CodingApe is an AI that can help you learn to code. It can also help you to understand any piece of code.",
+      title: "Krit.io",
+      text: "Krit.io is an AI that can help you learn to code. It can also help you to understand any piece of code.",
       attachTo: {
         element: "#info-1",
         on: "top",
@@ -292,18 +292,18 @@ export const Provider = () => {
     },
     {
       id: "step-11",
-      title: "CodingApe",
-      text: "Now, let's explore the CodingApe. Click on the CodingApe tab to continue, and then click on the Next button to explore the CodingApe.",
+      title: "Krit.io",
+      text: "Now, let's explore the Krit.io. Click on the Krit.io tab to continue, and then click on the Next button to explore the Krit.io.",
       beforeShowPromise: function () {
         return new Promise((resolve) => {
           setTimeout(() => {
-            router.push("/app/CodingApe");
+            router.push("/app/codechimp");
             resolve();
           }, 2000);
         });
       },
       attachTo: {
-        element: "#side-CodingApe",
+        element: "#side-Krit\\.io",
         on: "top",
       },
       buttons: [
@@ -324,7 +324,7 @@ export const Provider = () => {
     {
       id: "step-12",
       title: "Send Prompt",
-      text: "CodingApe can help you to understand any piece of code. If you've a code snippet you want to understand, paste it in the right text area, and then pass your prompt in the below input field, and hit Enter to get the response. Once you get the response, click on the Next button to continue.",
+      text: "Krit.io can help you to understand any piece of code. If you've a code snippet you want to understand, paste it in the right text area, and then pass your prompt in the below input field, and hit Enter to get the response. Once you get the response, click on the Next button to continue.",
       attachTo: {
         element: "#send-prompt",
         on: "top",
@@ -347,7 +347,7 @@ export const Provider = () => {
     {
       id: "step-13",
       title: "Thanks for Exploring",
-      text: "Thanks for exploring the CodingApe platform. We're continuously working on improving the platform and adding tons of new features. If you've any feedback or suggestions, feel free to share with us. Click on the Exit button to close the tour.",
+      text: "Thanks for exploring the Krit.io platform. We're continuously working on improving the platform and adding tons of new features. If you've any feedback or suggestions, feel free to share with us. Click on the Exit button to close the tour.",
       attachTo: {
         element: "#side-Interview Prep",
         on: "top",
