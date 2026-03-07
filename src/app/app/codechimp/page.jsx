@@ -9,7 +9,7 @@ import { Dot, Ellipsis, Send, SendHorizonal } from "lucide-react";
 import { useState } from "react";
 import Markdown from "markdown-to-jsx";
 
-const CodingApePage = () => {
+const CodeChimpPage = () => {
   // messages should be an array of objects with the following structure: { type: "user" | "bot", message: string }
   const [messages, setMessages] = useState([]);
   const [prompt, setPrompt] = useState("");
@@ -35,7 +35,7 @@ const CodingApePage = () => {
     ]);
     setPrompt("");
     setIsTyping(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/CodingApe/chat`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/codechimp/chat`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -65,16 +65,14 @@ const CodingApePage = () => {
               {messages.map((msg, idx) => (
                 <div
                   key={idx}
-                  className={`flex items-center space-x-2 w-full ${
-                    msg.type === "user" ? "justify-start" : "justify-end"
-                  }`}
+                  className={`flex items-center space-x-2 w-full ${msg.type === "user" ? "justify-start" : "justify-end"
+                    }`}
                 >
                   <div
-                    className={`p-2 rounded-md max-w-fit w-[80%] overflow-x-auto ${
-                      msg.type === "user"
+                    className={`p-2 rounded-md max-w-fit w-[80%] overflow-x-auto ${msg.type === "user"
                         ? "bg-primary text-black"
                         : "bg-secondary text-white"
-                    }`}
+                      }`}
                   >
                     <Markdown
                       className="text-sm"
@@ -134,4 +132,4 @@ const CodingApePage = () => {
   );
 };
 
-export default CodingApePage;
+export default CodeChimpPage;
