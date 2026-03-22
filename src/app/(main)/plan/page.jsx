@@ -11,9 +11,9 @@ const PlanTier = ({ title, price, description, features, limitations, isPopular,
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay }}
-            className={`relative flex flex-col p-8 rounded-3xl bg-opacity-5 bg-background border transition-all duration-300 hover:shadow-xl hover:scale-105 ${isPopular
+            className={`relative flex flex-col h-full p-8 rounded-3xl bg-opacity-5 bg-background border transition-all duration-100 hover:shadow-2xl ${isPopular
                 ? "border-indigo-500 shadow-[0_0_40px_-10px_rgba(99,102,241,0.3)] transform md:-translate-y-4 hover:-translate-y-6"
-                : "border-border hover:border-indigo-500/50 hover:-translate-y-2"
+                : "border-border hover:border-indigo-500/50 hover:-translate-y-2 hover:bg-opacity-10"
                 }`}
         >
             {isPopular && (
@@ -149,7 +149,7 @@ const PlansPage = () => {
                         </motion.p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8 items-center max-w-6xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8 items-stretch max-w-6xl mx-auto">
                         {plans.map((plan, index) => (
                             <PlanTier
                                 key={plan.title}
