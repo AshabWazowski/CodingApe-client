@@ -57,13 +57,12 @@ const Navbar = () => {
 
       {/* Desktop Auth */}
       <div className="hidden md:flex flex-row items-center gap-4">
-        <SignInButton mode="modal">
+        <Link href="/sign-in">
           <Button variant="outline" className="border-border rounded-md px-6 py-2 text-sm font-semibold hover:bg-indigo-600 hover:text-white transition-colors">
             Sign in
           </Button>
-        </SignInButton>
+        </Link>
       </div>
-
       {/* Mobile Navigation */}
       <div className="md:hidden flex items-center">
         <Sheet>
@@ -108,7 +107,7 @@ const Navbar = () => {
 
               <div className="mt-auto px-4 pb-4">
                 <div className="w-full h-px bg-border mb-6"></div>
-                <SignInButton mode="modal">
+                <SignInButton mode="redirect">
                   <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-6 text-lg rounded-xl">
                     Sign in
                   </Button>
