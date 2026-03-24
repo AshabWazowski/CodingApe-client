@@ -3,6 +3,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import StoreProvider from "@/app/store/StoreProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,14 +16,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
-      <html lang="en">
-        <body className={inter.className}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}
-            <Toaster />
-          </ThemeProvider>
-        </body>
-      </html>
+      <StoreProvider>
+        <html lang="en">
+          <body className={inter.className}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              {children}
+              <Toaster />
+            </ThemeProvider>
+          </body>
+        </html>
+      </StoreProvider>
     </ClerkProvider>
   );
 }

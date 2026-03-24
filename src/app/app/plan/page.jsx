@@ -1,9 +1,11 @@
 "use client";
 
+import StudyPlannerForm from "./components/StudyPlannerForm";
+
 const PlanPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen text-3xl font-semibold text-gray-500">
-      Under Development 👷🚧
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4 py-12">
+      <StudyPlannerForm />
     </div>
   );
 };

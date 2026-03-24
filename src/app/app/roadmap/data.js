@@ -1,0 +1,5366 @@
+export const roadmapData = [
+  {
+    "title": "Frontend Development"
+  },
+  {
+    "title": "Backend"
+  },
+  {
+    "title": "Full Stack"
+  },
+  {
+    "title": "DevOps Engineer"
+  },
+  {
+    "title": "Data Engineer"
+  },
+  {
+    "title": "Data Analyst"
+  },
+  {
+    "title": "AI Engineer"
+  },
+  {
+    "title": "ML-Ops Engineer"
+  },
+  {
+    "title": "Cyber Security"
+  },
+  {
+    "title": "UI Developer"
+  },
+  {
+    "title": "Graphic Designer"
+  },
+  {
+    "title": "Data Scientist"
+  },
+  {
+    "title": "Android Developer"
+  },
+  {
+    "title": "Blockchain"
+  },
+  {
+    "title": "iOS Developer"
+  },
+  {
+    "title": "Java Full Stack Developer"
+  },
+  {
+    "title": "Database Engineer"
+  }
+];
+
+
+
+export const roadmapFlowChartData = [
+  {
+  "roadmaps": [
+    {
+      "roadmapId": "frontend-development",
+      "title": "Frontend Development",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Web Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "HTML5 & Semantic Structure",
+            "content": "Semantic tags, forms, media, SEO-friendly markup, and accessibility-first structure."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "CSS3 & Responsive Layouts",
+            "content": "Flexbox, Grid, animations, variables, theming, and mobile-first responsive design."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "JavaScript Fundamentals",
+            "content": "DOM, events, async programming, modules, and modern ES6+ syntax."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Frontend Framework Paths"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "React",
+            "content": "Components, hooks, state management, routing, forms, and ecosystem tools."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Angular",
+            "content": "Modules, services, dependency injection, RxJS, and enterprise architecture."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Vue / Svelte",
+            "content": "Reactive UI patterns, component composition, and lightweight app development."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Advanced UI Engineering"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "TypeScript",
+            "content": "Type safety, generics, utility types, and scalable frontend codebases."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing & Quality",
+            "content": "Unit, integration, and end-to-end testing with linting and formatting."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Performance & Accessibility",
+            "content": "Core Web Vitals, code splitting, ARIA, keyboard support, and audits."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Production Readiness"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Build Tools & Deployment",
+            "content": "Vite, Webpack, CI pipelines, static hosting, and release workflows."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "State & Data Management",
+            "content": "Redux, Zustand, Context, server state, caching, and API integration."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Design Systems & DX",
+            "content": "Reusable components, documentation, Storybook, and developer experience."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "backend",
+      "title": "Backend",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Programming & Core Concepts"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Backend Languages",
+            "content": "Node.js, Java, Python, Go, PHP, and C# fundamentals for server-side development."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Structures & Algorithms",
+            "content": "Core problem solving, complexity analysis, and clean code practices."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Web Fundamentals",
+            "content": "HTTP, REST, headers, status codes, cookies, sessions, and TLS basics."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: API & Application Design"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "REST API Design",
+            "content": "Routing, validation, pagination, versioning, error handling, and documentation."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Authentication & Authorization",
+            "content": "JWT, sessions, OAuth, role-based access, and secure login flows."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Frameworks",
+            "content": "Express, NestJS, Spring Boot, Django, FastAPI, Gin, Laravel, and .NET APIs."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Data & Scalability"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Databases",
+            "content": "SQL, NoSQL, schema design, indexing, joins, transactions, and query optimization."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Caching & Messaging",
+            "content": "Redis, queues, pub/sub, background jobs, retries, and event-driven design."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Scalable Architecture",
+            "content": "Microservices, monoliths, clean architecture, and service boundaries."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Quality, Security & Operations"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing",
+            "content": "Unit, integration, contract, and API testing with mocks and test data."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Observability",
+            "content": "Logging, metrics, tracing, alerts, and operational debugging."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Security & Deployment",
+            "content": "Rate limiting, input validation, secrets, containers, and cloud deployment."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "full-stack",
+      "title": "Full Stack",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Frontend & Backend Basics"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "HTML, CSS, JavaScript",
+            "content": "Core UI building blocks and modern browser-side development."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Server Fundamentals",
+            "content": "HTTP, APIs, authentication, and request/response lifecycle."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Database Basics",
+            "content": "Relational tables, CRUD, joins, indexes, and simple schema design."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Frontend Paths"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "React / Next.js",
+            "content": "Component-driven interfaces, SSR, routing, and full-stack React apps."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Angular / Vue",
+            "content": "Alternative SPA ecosystems for scalable application development."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "TypeScript",
+            "content": "Safer full-stack code with shared types and better maintainability."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Backend & Data Layer"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Node, Java, Python, Go",
+            "content": "Choose a backend stack based on team, scale, and domain needs."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "ORMs & DB Design",
+            "content": "Prisma, Hibernate, Sequelize, Mongoose, indexing, and normalization."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Auth & Business Logic",
+            "content": "Sessions, JWT, RBAC, payments, file uploads, and validations."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Shipping Full Products"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing & QA",
+            "content": "Unit, integration, e2e testing, and bug triage workflows."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "DevOps Basics",
+            "content": "Docker, CI/CD, environment variables, and cloud deployment."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "System Design",
+            "content": "Scalability, caching, queues, monitoring, and feature planning."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "devops-engineer",
+      "title": "DevOps Engineer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Operating Systems & Networking"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Linux Administration",
+            "content": "Shell, permissions, processes, services, logs, and package management."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Networking Fundamentals",
+            "content": "DNS, load balancing, TCP/IP, HTTP, TLS, proxies, and ports."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Scripting",
+            "content": "Bash, Python, and automation for repeatable infrastructure tasks."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Containers & CI/CD"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Docker",
+            "content": "Images, containers, volumes, networking, multi-stage builds, and registries."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "CI/CD Pipelines",
+            "content": "GitHub Actions, GitLab CI, Azure DevOps, build, test, and deploy workflows."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Artifact & Release Management",
+            "content": "Versioning, releases, rollback strategy, and environment promotion."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Cloud & Infrastructure as Code"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Cloud Platforms",
+            "content": "AWS, Azure, and GCP core services for compute, storage, and networking."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "IaC",
+            "content": "Terraform, Pulumi, CloudFormation, and repeatable environment provisioning."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Kubernetes",
+            "content": "Pods, deployments, services, ingress, config, secrets, and autoscaling."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Reliability & Security"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Monitoring & Logging",
+            "content": "Prometheus, Grafana, ELK, alerting, and incident visibility."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Secrets & Compliance",
+            "content": "Vault, KMS, least privilege, key rotation, and access controls."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "SRE Practices",
+            "content": "SLOs, error budgets, capacity planning, and postmortems."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "data-engineer",
+      "title": "Data Engineer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Data Fundamentals"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "SQL Mastery",
+            "content": "Joins, aggregations, windows, indexes, and query optimization."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Python for Data",
+            "content": "Pandas, file handling, APIs, automation, and pipeline scripting."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Modeling",
+            "content": "OLTP vs OLAP, normalization, star schemas, and fact/dimension design."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: ETL / ELT Pipelines"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Ingestion",
+            "content": "Batch, incremental, CDC, APIs, files, and streaming sources."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Transformation",
+            "content": "Clean, validate, enrich, and standardize data at scale."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Orchestration",
+            "content": "Airflow, Dagster, Prefect, scheduling, retries, and dependencies."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Big Data & Warehousing"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Spark & Distributed Processing",
+            "content": "Spark SQL, PySpark, partitioning, and performance tuning."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Warehouses & Lakehouses",
+            "content": "Snowflake, BigQuery, Redshift, Databricks, and scalable analytics storage."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Streaming",
+            "content": "Kafka, Kinesis, Pub/Sub, event processing, and real-time pipelines."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Reliability & Governance"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Quality",
+            "content": "Validation, lineage, freshness checks, and anomaly detection."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Security & Governance",
+            "content": "Access controls, PII handling, cataloging, and compliance."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Observability & Cost",
+            "content": "Monitoring jobs, optimizing spend, and incident handling."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "data-analyst",
+      "title": "Data Analyst",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Business & Data Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Excel / Sheets",
+            "content": "Formulas, pivot tables, dashboards, and structured analysis."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "SQL",
+            "content": "Filtering, joins, aggregations, and analytical queries."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Statistics",
+            "content": "Distributions, sampling, correlation, and hypothesis basics."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Visualization & Reporting"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "BI Tools",
+            "content": "Power BI, Tableau, Looker, dashboards, and KPI reporting."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Visualization",
+            "content": "Choosing chart types, clarity, and insight-driven storytelling."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Reporting Automation",
+            "content": "Scheduled reports, reusable templates, and data refresh workflows."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Analysis & Experimentation"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Python / R",
+            "content": "Pandas, NumPy, notebooks, and reproducible analysis."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "A/B Testing",
+            "content": "Experiment design, significance, uplift, and metric interpretation."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Business Metrics",
+            "content": "Funnels, retention, cohorts, segmentation, and product analytics."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Stakeholder Communication"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Insight Storytelling",
+            "content": "Presenting findings, recommendations, and trade-offs clearly."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Quality Awareness",
+            "content": "Spotting anomalies, missing values, and source issues."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Domain Knowledge",
+            "content": "Learning the business context behind the numbers."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "ai-engineer",
+      "title": "AI Engineer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: AI Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Python & ML Basics",
+            "content": "Core Python, numerical libraries, and model-friendly data handling."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "LLM Concepts",
+            "content": "Tokens, context windows, embeddings, prompts, and generation behavior."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "AI Product Thinking",
+            "content": "Use-case selection, latency, cost, and user value."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Building AI Features"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Prompt Engineering",
+            "content": "Instruction design, few-shot examples, and structured outputs."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "RAG",
+            "content": "Retrieval, chunking, ranking, vector search, and grounded responses."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Agentic Workflows",
+            "content": "Tool use, planning, function calling, and workflow orchestration."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Model & Data Layer"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Vector Databases",
+            "content": "FAISS, Pinecone, Weaviate, Milvus, and similarity search."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Fine-Tuning",
+            "content": "Domain adaptation, datasets, labels, and evaluation loops."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Model APIs",
+            "content": "OpenAI, Anthropic, Gemini, open-source models, and abstraction layers."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Evaluation & Deployment"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Evaluation",
+            "content": "Offline metrics, human review, guardrails, and red-teaming."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Serving & Scaling",
+            "content": "Caching, batching, rate limits, and inference optimization."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Safety & Governance",
+            "content": "PII controls, policy checks, and output moderation."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "ml-ops-engineer",
+      "title": "ML-Ops Engineer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: ML & Data Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Python, SQL, and ML Basics",
+            "content": "Data handling, modeling basics, and reproducible code."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Experiment Tracking",
+            "content": "Metrics, parameters, artifacts, and comparison of runs."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Feature Engineering",
+            "content": "Reusable features, transformations, and leakage prevention."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Training Pipelines"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Pipeline Orchestration",
+            "content": "Airflow, Kubeflow, Prefect, and automated workflows."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Versioning",
+            "content": "Dataset snapshots, lineage, and reproducible training inputs."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Model Training",
+            "content": "Distributed training, tuning, and training automation."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Deployment & Serving"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Model Serving",
+            "content": "Batch, online, and streaming inference architectures."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Containers & Kubernetes",
+            "content": "Portable deployment, autoscaling, and rollout strategies."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Feature Store",
+            "content": "Online/offline parity, feature reuse, and serving consistency."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Monitoring & Governance"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Model Monitoring",
+            "content": "Drift, performance, latency, and alerting."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "CI/CD for ML",
+            "content": "Testing models, validating data, and automated release pipelines."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Governance",
+            "content": "Access controls, approvals, auditability, and rollback plans."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "cyber-security",
+      "title": "Cyber Security",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Security Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Networking & OS Basics",
+            "content": "TCP/IP, DNS, Linux/Windows fundamentals, and process behavior."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Cryptography Basics",
+            "content": "Hashing, encryption, certificates, and secure communication."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Security Mindset",
+            "content": "Threats, attack surfaces, trust boundaries, and risk thinking."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Core Security Domains"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Web Security",
+            "content": "OWASP Top 10, auth flaws, injection, XSS, CSRF, and secure headers."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Cloud Security",
+            "content": "IAM, storage policies, security groups, and secure configuration."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Endpoint & Identity",
+            "content": "Device hardening, MFA, SSO, and identity governance."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Offensive & Defensive Skills"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Vulnerability Assessment",
+            "content": "Scanning, prioritization, remediation, and verification."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Penetration Testing",
+            "content": "Recon, exploitation basics, reporting, and safe validation."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "SOC / SIEM",
+            "content": "Alert triage, log analysis, incident detection, and response."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Advanced Security Operations"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Incident Response",
+            "content": "Containment, eradication, recovery, and post-incident review."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Application Security",
+            "content": "Secure SDLC, code review, secrets, dependency risk, and SAST/DAST."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Governance & Compliance",
+            "content": "Policies, audits, standards, and security awareness."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "ui-developer",
+      "title": "UI Developer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: UI Fundamentals"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "HTML & Semantic Markup",
+            "content": "Structure, accessibility, forms, and clean content hierarchy."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Advanced CSS",
+            "content": "Layouts, responsiveness, animations, variables, and component styling."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "JavaScript for UI",
+            "content": "Interaction handling, DOM updates, and UI behavior logic."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Component-Based UI"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "React / Vue / Angular",
+            "content": "Component composition and reusable UI building blocks."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Design System Usage",
+            "content": "Tokens, reusable patterns, and consistent interface behavior."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Icons & Assets",
+            "content": "SVGs, icon sets, and scalable visual assets."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Polish & Accessibility"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Accessibility",
+            "content": "Keyboard navigation, focus states, ARIA, contrast, and screen readers."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Animation & Motion",
+            "content": "Micro-interactions, transitions, and motion guidelines."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Responsive Optimization",
+            "content": "Cross-device behavior, breakpoints, and fluid layouts."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Collaboration & Quality"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing",
+            "content": "UI snapshots, component tests, and behavior validation."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Performance",
+            "content": "Bundle size, rendering cost, and perceived speed."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Design Handoff",
+            "content": "Working with Figma, specs, and developer-friendly documentation."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "graphic-designer",
+      "title": "Graphic Designer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Design Fundamentals"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Composition",
+            "content": "Balance, contrast, alignment, hierarchy, and spacing."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Typography",
+            "content": "Font pairing, readability, kerning, and visual tone."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Color Theory",
+            "content": "Palette selection, contrast, mood, and brand consistency."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Core Design Categories"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Brand Identity",
+            "content": "Logos, visual systems, brand guidelines, and recognition."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Marketing Design",
+            "content": "Posters, banners, ads, social media graphics, and campaign visuals."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "UI Assets",
+            "content": "Icons, illustrations, splash screens, and product visuals."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Tools & Production"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Adobe Creative Suite",
+            "content": "Photoshop, Illustrator, InDesign, and asset export workflows."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Figma / Canva / Sketch",
+            "content": "Collaborative design, layout systems, and rapid content creation."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Motion Basics",
+            "content": "Simple animation, short-form visuals, and presentation polish."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Portfolio & Delivery"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Print & Digital Export",
+            "content": "Bleed, DPI, formats, and optimization for different channels."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Client Communication",
+            "content": "Briefs, revisions, feedback handling, and presentation skills."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Portfolio Building",
+            "content": "Case studies, mockups, and showcasing design thinking."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "data-scientist",
+      "title": "Data Scientist",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Math, Stats & Python"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Python for DS",
+            "content": "Pandas, NumPy, Jupyter, plotting, and data wrangling."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Statistics & Probability",
+            "content": "Distributions, inference, hypothesis testing, and uncertainty."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Data Cleaning",
+            "content": "Missing data, outliers, encoding, and preprocessing."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Exploratory Analysis"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "EDA",
+            "content": "Pattern discovery, correlations, segmentation, and anomaly detection."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Visualization",
+            "content": "Charts, dashboards, and communicating data stories."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Feature Engineering",
+            "content": "Transformations, selections, and domain-driven inputs."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Machine Learning"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Supervised Learning",
+            "content": "Regression, classification, trees, ensembles, and metrics."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Unsupervised Learning",
+            "content": "Clustering, dimensionality reduction, and pattern discovery."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Model Evaluation",
+            "content": "Cross-validation, bias/variance, tuning, and error analysis."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Applied Data Science"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Experimentation",
+            "content": "A/B testing, causal thinking, and product decisions."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Deployment",
+            "content": "Packaging models, APIs, and production workflows."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Communication & Business Impact",
+            "content": "Storytelling, recommendations, and stakeholder alignment."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "android-developer",
+      "title": "Android Developer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Kotlin & Android Basics"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Kotlin",
+            "content": "Syntax, null safety, collections, coroutines, and OOP."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Android Fundamentals",
+            "content": "Activities, fragments, lifecycle, and app structure."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "UI Development",
+            "content": "XML layouts, Views, and modern Jetpack Compose."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Core App Features"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Navigation",
+            "content": "Screens, deep links, back stack, and route management."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Networking",
+            "content": "Retrofit, OkHttp, APIs, serialization, and error handling."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Local Storage",
+            "content": "Room, DataStore, files, and offline-first patterns."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Architecture & Quality"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Architecture Patterns",
+            "content": "MVVM, Clean Architecture, modularization, and state management."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Concurrency",
+            "content": "Coroutines, Flow, background tasks, and lifecycle-aware work."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing",
+            "content": "Unit tests, UI tests, and instrumentation testing."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Release & Optimization"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Performance",
+            "content": "Rendering, memory, battery usage, and startup time."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Security",
+            "content": "Secure storage, permissions, and app hardening."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Publishing",
+            "content": "Play Store release, signing, versioning, and rollout."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "blockchain",
+      "title": "Blockchain",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Blockchain Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Distributed Systems Basics",
+            "content": "Consensus, decentralization, and trustless coordination."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Cryptography",
+            "content": "Hashing, signatures, wallets, and key management."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Blockchain Concepts",
+            "content": "Blocks, transactions, gas, nodes, and chain architecture."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Smart Contract Development"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Solidity / Rust / Move",
+            "content": "Language choices for Ethereum, Solana, and other ecosystems."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Smart Contract Patterns",
+            "content": "Ownership, access control, events, and upgradeability."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing",
+            "content": "Local chains, unit tests, deployment scripts, and verification."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: dApps & Ecosystem"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Frontend Integration",
+            "content": "Wallet connections, chain interactions, and user flows."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Token Standards",
+            "content": "ERC-20, ERC-721, ERC-1155, and custom assets."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "DeFi / NFTs / DAOs",
+            "content": "Common product patterns and ecosystem use cases."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Security & Scale"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Contract Security",
+            "content": "Reentrancy, access issues, audit readiness, and safe patterns."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Indexing & Analytics",
+            "content": "The Graph, event indexing, and on-chain data analysis."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Layer 2 & Interoperability",
+            "content": "Scaling, bridges, rollups, and cross-chain systems."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "ios-developer",
+      "title": "iOS Developer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Swift & Apple Basics"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Swift",
+            "content": "Syntax, optionals, generics, protocols, and concurrency."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Xcode & iOS SDK",
+            "content": "Project setup, simulators, build tools, and debugging."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "UI Development",
+            "content": "SwiftUI and UIKit fundamentals for modern iOS apps."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Core App Development"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Navigation",
+            "content": "Screen flow, routing, and app state transitions."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Networking",
+            "content": "URLSession, APIs, decoding, and error handling."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Persistence",
+            "content": "UserDefaults, Core Data, files, and offline storage."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Architecture & Quality"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Architecture",
+            "content": "MVC, MVVM, modularization, and clean separation of concerns."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Concurrency",
+            "content": "Async/await, GCD, task management, and responsiveness."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing",
+            "content": "Unit tests, UI tests, and testable design."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Performance & Release"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Optimization",
+            "content": "Memory, startup time, scrolling, and battery considerations."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Accessibility",
+            "content": "VoiceOver, dynamic type, contrast, and inclusive design."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "App Store Release",
+            "content": "Signing, provisioning, review guidelines, and releases."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "java-full-stack-developer",
+      "title": "Java Full Stack Developer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Java & Web Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Core Java",
+            "content": "OOP, collections, exceptions, streams, and concurrency basics."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Web Fundamentals",
+            "content": "HTTP, REST, sessions, cookies, and security basics."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "SQL & Database Basics",
+            "content": "Schema design, joins, and CRUD operations."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Frontend Options"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "React",
+            "content": "Modern component-based UI for full-stack apps."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Angular",
+            "content": "Enterprise frontend development with TypeScript and RxJS."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "HTML/CSS/JS",
+            "content": "Reusable UI, responsive layouts, and browser interaction."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Spring Ecosystem"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Spring Boot",
+            "content": "REST APIs, dependency injection, validation, and configuration."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "JPA / Hibernate",
+            "content": "Entity mapping, relationships, transactions, and queries."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Security",
+            "content": "Spring Security, JWT, OAuth2, and role-based access."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Production Systems"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Microservices",
+            "content": "Service boundaries, communication, and scalability patterns."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Testing & Messaging",
+            "content": "JUnit, Mockito, Kafka/RabbitMQ, and async processing."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Cloud & Deployment",
+            "content": "Docker, CI/CD, cloud hosting, and observability."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    },
+    {
+      "roadmapId": "database-engineer",
+      "title": "Database Engineer",
+      "nodes": [
+        {
+          "id": "p1",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 1: Database Foundations"
+          },
+          "position": {
+            "x": 250,
+            "y": 0
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s1-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Relational Modeling",
+            "content": "Entities, relationships, normalization, and constraints."
+          },
+          "position": {
+            "x": -300,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-2",
+          "type": "subSkill",
+          "data": {
+            "label": "SQL",
+            "content": "Queries, joins, aggregations, and analytical functions."
+          },
+          "position": {
+            "x": 250,
+            "y": 110
+          }
+        },
+        {
+          "id": "s1-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Transaction Concepts",
+            "content": "ACID, isolation, locking, and consistency."
+          },
+          "position": {
+            "x": 800,
+            "y": 110
+          }
+        },
+        {
+          "id": "p2",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 2: Performance & Optimization"
+          },
+          "position": {
+            "x": 250,
+            "y": 220
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s2-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Indexing",
+            "content": "B-trees, composite indexes, and query planning."
+          },
+          "position": {
+            "x": -300,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Query Tuning",
+            "content": "Execution plans, refactoring SQL, and reducing latency."
+          },
+          "position": {
+            "x": 250,
+            "y": 330
+          }
+        },
+        {
+          "id": "s2-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Partitioning",
+            "content": "Sharding, partition strategies, and workload distribution."
+          },
+          "position": {
+            "x": 800,
+            "y": 330
+          }
+        },
+        {
+          "id": "p3",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 3: Database Platforms"
+          },
+          "position": {
+            "x": 250,
+            "y": 440
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s3-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Relational Databases",
+            "content": "PostgreSQL, MySQL, SQL Server, Oracle, and tuning differences."
+          },
+          "position": {
+            "x": -300,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-2",
+          "type": "subSkill",
+          "data": {
+            "label": "NoSQL Databases",
+            "content": "MongoDB, Redis, Cassandra, and use-case selection."
+          },
+          "position": {
+            "x": 250,
+            "y": 550
+          }
+        },
+        {
+          "id": "s3-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Warehousing",
+            "content": "ETL-friendly schemas, marts, and analytics storage."
+          },
+          "position": {
+            "x": 800,
+            "y": 550
+          }
+        },
+        {
+          "id": "p4",
+          "type": "parentCategory",
+          "data": {
+            "label": "Phase 4: Reliability & Operations"
+          },
+          "position": {
+            "x": 250,
+            "y": 660
+          },
+          "style": {
+            "backgroundColor": "#ffff00",
+            "fontWeight": "bold",
+            "border": "2px solid black"
+          }
+        },
+        {
+          "id": "s4-1",
+          "type": "subSkill",
+          "data": {
+            "label": "Backup & Recovery",
+            "content": "Replication, snapshots, restore testing, and disaster recovery."
+          },
+          "position": {
+            "x": -300,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-2",
+          "type": "subSkill",
+          "data": {
+            "label": "Security",
+            "content": "Roles, permissions, encryption, and data governance."
+          },
+          "position": {
+            "x": 250,
+            "y": 770
+          }
+        },
+        {
+          "id": "s4-3",
+          "type": "subSkill",
+          "data": {
+            "label": "Monitoring & Migration",
+            "content": "Metrics, replication lag, upgrades, and schema evolution."
+          },
+          "position": {
+            "x": 800,
+            "y": 770
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-p1-s1-1",
+          "source": "p1",
+          "target": "s1-1",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-2",
+          "source": "p1",
+          "target": "s1-2",
+          "animated": true
+        },
+        {
+          "id": "e-p1-s1-3",
+          "source": "p1",
+          "target": "s1-3",
+          "animated": true
+        },
+        {
+          "id": "e-p1-p2",
+          "source": "p1",
+          "target": "p2",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p2-s2-1",
+          "source": "p2",
+          "target": "s2-1",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-2",
+          "source": "p2",
+          "target": "s2-2",
+          "animated": true
+        },
+        {
+          "id": "e-p2-s2-3",
+          "source": "p2",
+          "target": "s2-3",
+          "animated": true
+        },
+        {
+          "id": "e-p2-p3",
+          "source": "p2",
+          "target": "p3",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p3-s3-1",
+          "source": "p3",
+          "target": "s3-1",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-2",
+          "source": "p3",
+          "target": "s3-2",
+          "animated": true
+        },
+        {
+          "id": "e-p3-s3-3",
+          "source": "p3",
+          "target": "s3-3",
+          "animated": true
+        },
+        {
+          "id": "e-p3-p4",
+          "source": "p3",
+          "target": "p4",
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "e-p4-s4-1",
+          "source": "p4",
+          "target": "s4-1",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-2",
+          "source": "p4",
+          "target": "s4-2",
+          "animated": true
+        },
+        {
+          "id": "e-p4-s4-3",
+          "source": "p4",
+          "target": "s4-3",
+          "animated": true
+        }
+      ]
+    }
+  ]
+}
+]

@@ -1,96 +1,86 @@
 "use client";
 
-import { useForm } from "react-hook-form";
-import AreaOfInterest from "./_components/interest-area";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
 import { useRouter } from "next/navigation";
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { MoveRight, Zap, Target, Sparkles } from "lucide-react";
+import RoadmapCard from "./_components/RoadmapCard";
+import { roadmapData } from "./data";
 
 const RoadmapPage = () => {
-  const [data, setData] = useState({});
-
-  const [areaOfInterest, setAreaOfInterest] = useState([]);
-  const [skillLevel, setSkillLevel] = useState("");
-  const [careerGoal, setCareerGoal] = useState("");
-  const [projectType, setProjectType] = useState("");
-  const [skillType, setSkillType] = useState("");
-  const [timeCommitment, setTimeCommitment] = useState("");
-  const [learningPace, setLearningPace] = useState("");
-  const [resources, setResources] = useState("");
-
-  const [index, setIndex] = useState(0);
-
   const [isSubmitting, setIsSubmitting] = useState(false);
-
   const { toast } = useToast();
-
   const router = useRouter();
 
-  // zod implementation
-  const form = useForm();
-
-  const handleNext = () => {
-    setIndex((prev) => prev + 1);
-  };
-
-  const handleBack = () => {
-    setIndex((prev) => prev - 1);
-  };
-
-  // function to change the string into array of strings, It changes the string from , separation and removes the spaces
-  // It is used in the function onSubmit to change the string into array of strings
-
-  const onSubmit = async (data) => {
-    setIsSubmitting(true);
-    setData({
-      areaOfInterest: areaOfInterest,
-      skillLevel: skillLevel,
-      careerGoal: careerGoal,
-      projectType: projectType,
-      skillType: skillType,
-      timeCommitment: timeCommitment,
-      learningPace: learningPace,
-      resources: resources,
+  const handleCardClick = (title) => {
+    toast({
+      title: `${title} Roadmap Selected`,
+      description: "Redirecting to your personalized learning path...",
     });
-    try {
-      // const response = await fetch("/api/roadmap", {
-      //   method: "POST",
-      //   body: JSON.stringify(data),
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      // });
-      toast({
-        title: "Roadmap created successfully",
-        // description: response.data.message,
-        variant: "default",
-      });
-      router.replace("/app/plan");
-    } catch (error) {
-      toast({
-        title: "Failed to create roadmap",
-        // description: response.data.message,
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    const titleResetForRouteUrl = title.toLowerCase().replace(/\s/g, "-");
+    router.push(`/app/roadmap/${titleResetForRouteUrl}`);
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen text-3xl font-semibold text-gray-500">
-      Under Development 👷🚧
+    <div className="min-h-full w-full bg-[#0a0a0a] text-zinc-100 p-6 md:p-10">
+      {/* Header Section */}
+      <div className="max-w-7xl mx-auto mb-16 space-y-4">
+        <div className="flex items-center gap-2 text-indigo-400 font-medium tracking-wider uppercase text-sm">
+          <Sparkles className="w-4 h-4" />
+          <span>Curated Learning Paths</span>
+        </div>
+        <h1 className="text-4xl md:text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-white via-zinc-200 to-zinc-500">
+          Professional Roadmaps
+        </h1>
+        <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
+          Master the most in-demand technical skills with our structured, 
+          industry-aligned learning paths designed for the modern engineer.
+        </p>
+      </div>
+
+      {/* Grid Container */}
+      <div className="max-w-7xl mx-auto space-y-12">
+        {/* Featured Section */}
+        <section className="space-y-8">
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold flex items-center gap-3 text-white">
+              <Target className="w-6 h-6 text-indigo-500" />
+              Available Tracks
+            </h2>
+            <div className="h-[1px] flex-1 bg-zinc-800/50 ml-6 hidden sm:block" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid -cols-2 lg:grid-cols-3 gap-5">
+            {roadmapData.map((item, index) => (
+              <RoadmapCard 
+                key={index}
+                tag={item.title}
+                onClick={() => handleCardClick(item.title)}
+              />
+            ))}
+          </div>
+        </section>
+
+        {/* Custom Planner Placeholder */}
+        <div className="p-px rounded-3xl bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-blue-500/20 mt-20">
+          <div className="bg-[#0f0f0f] rounded-[23px] p-8 md:p-12 text-center space-y-6 border border-white/5 backdrop-blur-3xl">
+             <div className="mx-auto w-16 h-16 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 border border-indigo-500/20">
+                <Zap className="w-8 h-8 fill-indigo-400/20" />
+             </div>
+             <div className="space-y-2">
+               <h3 className="text-2xl md:text-3xl font-bold text-white">Can't find what you're looking for?</h3>
+               <p className="text-zinc-400 text-lg max-w-xl mx-auto">
+                 Our AI-powered engine can generate a custom learning path tailored 
+                 specifically to your goals and skill level.
+               </p>
+             </div>
+             <button className="px-8 py-3 rounded-full bg-white text-black font-bold hover:bg-zinc-200 transition-colors shadow-xl shadow-white/5 inline-flex items-center gap-2 group">
+               Generate Custom Roadmap
+               <MoveRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+             </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
