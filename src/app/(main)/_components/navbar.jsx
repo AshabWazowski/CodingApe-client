@@ -57,11 +57,11 @@ const Navbar = () => {
 
       {/* Desktop Auth */}
       <div className="hidden md:flex flex-row items-center gap-4">
-        <Link href="/sign-in">
+        <SignInButton mode="redirect">
           <Button variant="outline" className="border-border rounded-md px-6 py-2 text-sm font-semibold hover:bg-indigo-600 hover:text-white transition-colors">
             Sign in
           </Button>
-        </Link>
+        </SignInButton>
       </div>
       {/* Mobile Navigation */}
       <div className="md:hidden flex items-center">
