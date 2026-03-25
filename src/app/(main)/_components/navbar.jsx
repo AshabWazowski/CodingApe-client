@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const Navbar = () => {
   const routes = [
@@ -34,7 +35,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex flex-row items-center rounded-full bg-background-2 p-2 ring-1 ring-border h-10 justify-center px-6 gap-6">
+      <div className="hidden md:flex flex-row items-center rounded-full bg-secondary p-2 ring-1 ring-border h-10 justify-center px-6 gap-6">
         {routes.map((route) => (
           <Link
             href={route.path}
@@ -57,6 +58,7 @@ const Navbar = () => {
 
       {/* Desktop Auth */}
       <div className="hidden md:flex flex-row items-center gap-4">
+        <ModeToggle />
         <SignInButton mode="redirect">
           <Button variant="outline" className="border-border rounded-md px-6 py-2 text-sm font-semibold hover:bg-indigo-600 hover:text-white transition-colors">
             Sign in
@@ -64,7 +66,8 @@ const Navbar = () => {
         </SignInButton>
       </div>
       {/* Mobile Navigation */}
-      <div className="md:hidden flex items-center">
+      <div className="md:hidden flex items-center gap-2">
+        <ModeToggle />
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon" className="text-text hover:bg-secondary/50">

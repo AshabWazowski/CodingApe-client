@@ -13,7 +13,7 @@ const RoadmapCard = ({ tag, onClick }) => {
       whileTap={{ scale: 0.98 }}
       onClick={onClick}
       className={cn(
-        "relative w-full overflow-hidden rounded-xl border border-white/5 bg-zinc-900/40 p-5 cursor-pointer group transition-all duration-500",
+        "relative w-full overflow-hidden rounded-xl border border-border bg-card/40 p-5 cursor-pointer group transition-all duration-500",
         "hover:border-indigo-500/40 hover:shadow-[0_0_30px_rgba(79,70,229,0.12)]",
         "backdrop-blur-md"
       )}
@@ -32,7 +32,7 @@ const RoadmapCard = ({ tag, onClick }) => {
           <div className="p-1.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/10 group-hover:scale-110 transition-transform duration-300 shrink-0">
              <Zap className="w-4 h-4 fill-indigo-400/20" />
           </div>
-          <Badge variant="secondary" className="bg-transparent text-zinc-300 group-hover:text-indigo-200 border-none px-0 text-sm font-semibold truncate transition-colors duration-300">
+          <Badge variant="secondary" className="bg-transparent text-foreground group-hover:text-indigo-400 border-none px-0 text-sm font-semibold truncate transition-colors duration-300">
             {tag}
           </Badge>
         </div>
