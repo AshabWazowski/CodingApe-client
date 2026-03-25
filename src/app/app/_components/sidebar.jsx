@@ -21,8 +21,11 @@ import {
 import { SignOutButton, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import { dark } from "@clerk/themes";
+import { ModeToggle } from "@/components/mode-toggle";
+import { useTheme } from "next-themes";
 
 const Sidebar = () => {
+  const { resolvedTheme } = useTheme();
   const routes = [
     { name: "App", path: "/app", icon: Home },
     { name: "Code", path: "/app/problems", icon: CodeXml },
@@ -80,7 +83,8 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="flex flex-col items-center gap-4">
-        <UserButton appearance={{ baseTheme: dark }} />
+        <ModeToggle />
+        <UserButton appearance={{ baseTheme: resolvedTheme === 'dark' ? dark : undefined }} />
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
